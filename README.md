@@ -1,1 +1,1 @@
-# contributions
+<img src="https://raw.githubusercontent.com/nendroids/contributions/refs/heads/main/res/ico/476108384-b24c6dd7-7444-46fe-a263-677031079e14.png"/>

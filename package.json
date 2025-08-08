@@ -1,0 +1,40 @@
+{
+  "name": "contributions",
+  "description": "contributions is a javascript based program that automates the generating of backdated commits to a GitHub repository using randomly generated dates and timestamps from the past year. It updates a .json file with the commit date, adds the changes to Git, creates a commits with the backdated timestamp and pushes it to the provided github repository.",
+  "author": {
+    "name": "Harsh",
+    "email": "harsh.github.opensource@gmail.com"
+  },
+  "keywords": [
+    "contributions"
+  ],
+  "private": true,
+  "version": "0.0.0",
+  "type": "commonjs",
+  "homepage": "https://github.com/nendroids/contributions#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nendroids/contributions.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nendroids/contributions/issues"
+  },
+  "license": "GPL-3.0-only",
+  "main": "src/main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^7.1.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "fs": "^0.0.1-security",
+    "jsonfile": "^6.1.0",
+    "moment": "^2.30.1",
+    "path": "^0.12.7",
+    "simple-git": "^3.28.0"
+  }
+}
